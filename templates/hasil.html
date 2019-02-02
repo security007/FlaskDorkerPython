@@ -1,0 +1,18 @@
+<!DOCTYPE html> 
+  
+<html> 
+<head> 
+    <title>Result For {{request.form['dork']}}</title> 
+</head> 
+<body> 
+ <center>
+ <h1>Result For {{request.form['dork']}}</h1>
+ <textarea cols="150" rows="30">
+
+{%for i in hasil%} 
+  
+   {{i}}
+{%endfor%} 
+ </textarea> </center> 
+</body> 
+</html>
